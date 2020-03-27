@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Estado } from '../entidades/estado';
-import { ServicoEstado } from '../servicos/servico.estado';
+import { Cliente } from '../entidades/cliente';
+import { ServicoCliente } from '../servicos/servico.Cliente';
 
 @Component({
   selector: 'vetor-component'
@@ -9,7 +9,7 @@ import { ServicoEstado } from '../servicos/servico.estado';
 })
 export class VetoresComponent{
 
-  constructor(private servico: ServicoEstado){
+  constructor(private servico: ServicoCliente){
   }
 
   adicionar() : void {
